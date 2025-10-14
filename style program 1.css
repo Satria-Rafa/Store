@@ -1,0 +1,51 @@
+h1 {
+  text-align: center;
+  color: darkcyan;
+  font-size: 60px;
+  background-color: white;
+  border-top-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+}
+body {
+  background-color: black;
+}
+p {
+  background-color: yellow;
+  color: red;
+  font-size: 30px;
+  text-align: center;
+  border-radius: 20px;
+}
+ul {
+  background-color: white;
+  font-size: 20px;
+  border-bottom-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.text-danger {
+  color: red;
+}
+
+.text-warning {
+  color: yellow;
+}
+
+.text-success {
+  color: green;
+}
+
+.text-info {
+  color: cyan;
+}
+
+.text-secondary {
+  color: grey;
+}
+.text-info{
+    color: blue;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 20px;
+    padding-top: 20px;
+}

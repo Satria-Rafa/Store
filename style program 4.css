@@ -1,0 +1,60 @@
+body{
+  background: linear-gradient(to right, purple,aqua,purple);
+}
+.tumpul{
+  border-radius: 20px;
+}
+.containa {
+  display: flex;
+  margin-bottom: 20px;
+}
+.containi{
+  display: flex;
+}
+.contain2{
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.contain3{
+  display: flex;
+  justify-content: start;
+  margin-top: 20px;
+}
+.contain4{
+  display: flex;
+  justify-content: end;
+  margin-top: 20px;
+}
+img {
+  border-radius: 20px;
+  box-shadow: 10px 7px 10px;
+}
+.tengah {
+  justify-content: center;
+  display: flex;
+  gap: 20px;
+}
+.tengah img{
+  margin: 20px;
+  border-radius: 20px;
+  
+}
+.contain1{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  gap: 30px;
+}
+.batas{
+  gap: 0px; 
+}
+.batas img {
+  width: 180px;
+  height: 180px;
+  border-radius: 20px;
+}
+p{
+  margin: 20px;
+  text-shadow: 2px 1px 2px;
+}

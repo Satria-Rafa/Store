@@ -1,0 +1,114 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-image: url(fancy-cushion.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container{
+    background-color: blanchedalmond;
+    width: 50%;
+    margin: auto;
+    border-radius: 10px;
+}
+
+@font-face {
+    font-family: 'bebas';
+    src: url(BebasNeue-Regular.ttf),format(truetype);
+}
+.judul{
+    font-family: bebas;
+    font-size: 50px;
+    margin: 10px;
+    padding: 0px;
+}
+.header{
+    padding: 10px;
+}
+@keyframes naikTurun {
+    0% { transform: translateY(0); }
+    50% { transform: translateY(-10px); }
+    100% { transform: translateY(0); }
+}
+
+.header img {
+    animation: naikTurun 2.5s infinite ease-in-out;
+}
+
+.header a{
+    font-family: bebas;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+    transition: 0.5s;
+    font-size: 17px;
+}
+.header a:hover{
+    background-color: black;
+    border-radius: 5px;
+    padding: 3px;
+    color: azure;
+    font-size: 15px;
+}
+.nav-item {
+    font-size: 14px;
+    margin: 10px;
+}
+.rata{
+    display: flex;
+}
+.hero {
+    height: 300px;
+    background-image: url(fotokelas.jpg);
+    background-size: cover;
+    background-position: 0 -380px;
+    border: 2px solid rgb(211, 197, 0);
+    filter: grayscale(20);
+    transition: 0.5s ease-in-out;
+}
+.hero:hover{
+    filter: none;
+    transform: scale(1.05);
+    box-shadow: 0 0 50px rgb(0, 0, 0);
+}
+
+.content {
+    padding: 20px;
+    font-family: bebas;
+}
+.content h2{
+    font-size: 35px;
+    font-weight: bold;
+    margin-top: -10px;
+}
+.content .penulis{
+    margin-top: -40px;
+    font-size: 12px;
+    color: grey;
+}
+.content a{
+    color: rgb(211, 197, 0);
+    text-decoration: none;
+}
+.content .isi{
+    margin-top: 30px;
+    font-size: 17px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+.content {
+    animation: fadeIn 1.5s ease forwards;
+}
+body {
+    cursor: url('sword.cur'), auto;
+}
+a {
+    cursor: url('sword.cur'), auto;
+}
+
+

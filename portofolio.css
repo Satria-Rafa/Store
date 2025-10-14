@@ -1,0 +1,304 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.contain-nama {
+  background-color: grey;
+  width: 100%;
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  padding-top: 40px;
+}
+
+.contain-nama h2 {
+  display: flex;
+  justify-content: left;
+  font-size: 30px;
+  margin-left: 25px;
+  text-shadow: 0 0 10px black;
+}
+
+.nav-bar {
+  display: inline;
+  padding-right: 25px;
+  font-size: 20px;
+}
+
+.nav-bar a {
+  text-decoration: none;
+  color: white;
+  transition: 0.5s;
+  margin-right: 10px;
+  text-shadow: 0 0 10px black;
+}
+.nav-bar a:hover {
+  color: purple;
+}
+
+.hero {
+  background-color: burlywood;
+  width: 100%;
+  height: 450px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.gambar{
+  width: 770px;
+  height: 300px;
+  margin-top:30px;
+  margin-bottom: 30px;
+  display: flex;
+}
+
+.gambar img {
+  width: 300px;
+  height: 300px;
+  border: 3px solid black;
+  border-radius: 50%;
+}
+
+.ket{
+  margin-top: 100px;
+  margin-left: 30px;
+}
+
+.ket h2{
+  font-size: 25px;
+  margin-bottom: 10px;
+  text-shadow: 1px 1px 2px white;
+}
+
+.kontak{
+  margin-top: 20px;
+}
+
+.kontak a{
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  transition: 0.5s;
+}
+
+.kontak a:hover{
+  font-size: 18px;
+  color: white ;
+}
+
+.tentang {
+  margin: 50px 30px;
+}
+
+.tentang h1 {
+  font-size: 30px;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+
+.tentang p{
+  margin-bottom: 12px;
+  word-spacing: 5px;
+  line-height: 23px;
+  color: grey;
+  box-shadow: 0 0 16px;
+  border-radius: 20px;
+  padding: 20px 20px;
+}
+
+.keahlian {
+  margin: 15px 30px;
+}
+
+.keahlian h1 {
+  font-size: 30px;
+}
+
+.sertif {
+  display: flex;
+  justify-content: center;
+  height: 170px;
+  width: 94%;
+  background-color: olive;
+  margin: auto;
+  border-radius: 20px;
+  border: 4px solid chocolate;
+  margin-bottom: 50px;
+  box-shadow: 0 0 16px;
+}
+
+.galeri{
+  display: flex;
+  gap: 30px;
+}
+
+.galeri li, .galeri li a img , .galeri li span{
+  border-radius: 50%;
+}
+
+.galeri li{
+  float: left;
+  position: relative;
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  margin-top: 8px;
+  border-radius: 50%;
+  box-shadow: 0 0 10px black;
+  border: 4px solid black;
+}
+
+.galeri li span {
+  display: block;
+  width: 150px;
+  height: 150px;
+  background-color: rgba(200, 200, 200, .6);
+  border-radius: 50%;
+  top: 0px;
+  position: absolute;
+  text-align: center;
+  line-height: 150px;
+  color: black;
+  font-weight: bolder;
+  text-shadow: 1px 0 .7px white;
+  opacity: 0;
+  transition: .3s;
+  transform: scale(0) rotate(0);
+}
+
+.galeri li a:hover span{
+  opacity: 1;
+  transform: scale(1) rotate(360deg);
+}
+
+.overlay{
+  width: 0;
+  height: 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0);
+  z-index: 9999;
+  transition: .4s;
+  overflow: hidden;
+  text-align: center;
+  padding: 100px;
+}
+
+.overlay:target {
+  width: auto;
+  height: auto;
+  bottom: 0;
+  right: 0;
+  background: rgba(0, 0, 0, .6);
+}
+
+.overlay img{
+  box-shadow: 2px 2px 3px black;
+  max-height: 100%;
+}
+
+.overlay:target img{
+  animation: zoom 1s;
+}
+
+@keyframes zoom {
+  0%{
+    transform: scale(0);
+    opacity: 0;
+  }
+
+  100%{
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+.overlay .close{
+  position: absolute;
+  top: 80px;
+  right: 280px;
+  font-weight: bold;
+  text-decoration: none;
+  color: white;
+  font-size: 30px;
+}
+
+#About {
+  scroll-margin-top: 40px;
+}
+
+#Skill {
+  scroll-margin-top: 40px;
+}
+
+#Project {
+  scroll-margin-top: 40px;
+}
+
+.projek{
+  width: 95%;
+  background: linear-gradient(to left, burlywood 99.5%, maroon .5%);
+  height: 120px;
+  margin: auto;
+  border-radius: 10px;
+  box-shadow: 0 0 16px;
+}
+
+.projek h2 {
+  font-size: 25px;
+  padding: 25px 40px;
+  font-weight: bold;
+}
+
+.projek p {
+  word-spacing: 3px;
+  padding: 0 40px;
+  font-size: 17px;
+  color: blanchedalmond;
+}
+
+
+
+.atas {
+  margin: 15px 30px;
+}
+
+.atas h1 {
+  font-size: 30px;
+}
+
+.kontak {
+  display: block;
+  justify-content: start;
+  margin: 50px 30px;
+}
+
+.kontak h1 {
+  font-size: 30px;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+
+.kotak {
+  width: 100%;
+  height: 1000px;
+}
+
+
+
+
+.clear {
+  clear: both;
+}
