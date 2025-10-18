@@ -29,11 +29,21 @@ body {
   margin: auto;
   margin-top: 10px;
   border-radius: 10px;
-  background-color: black;
+  background: linear-gradient(
+    270deg,
+    #a9248c,
+    #d9d1ff,
+    #772dc2,
+    #a9248c
+  );
   box-shadow: 0 0 5px white;
 }
 
-
+input::placeholder {
+  color: black;
+  opacity: .6;
+  font-weight: bold;
+}
 
 
 
