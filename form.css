@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+}
+
+html,body {
+    height: 100%;
+}
+
+body {
+    background: linear-gradient(to top, 
+    rgb(106, 255, 191),
+    rgb(181, 252, 153),white);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+    
+input,textarea,label{
+    display: block;
+    
+}
+
+.radio {
+    display: inline;
+    justify-content: space-between;
+}
+
