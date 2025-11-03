@@ -14,15 +14,28 @@ body {
     background-size: cover;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
     
 input,textarea,label{
     display: block;
-    
+    text-align: center;
+    margin: auto;
 }
 
+input,label {
+    margin-top: 10px;
+}
+
+input,textarea {
+    background-color: blueviolet;
+}
+ 
+
 .radio {
-    display: inline;
-    justify-content: space-between;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-top: 10px;
 }
 
