@@ -11,8 +11,8 @@ div {
   display: flex;
   justify-content: center;
   margin-top: 50px;
-  gap: 30px;
-  background-color: pink;
+  gap: 20px;
+  background-color: blue;
 }
 
 .container2 {
@@ -32,7 +32,7 @@ div {
 .kartu {
   width: 280px;
   height: 380px;
-  box-shadow: 0 0 5px rgba(0,0,0,.6);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.6);
   overflow: hidden;
   border-radius: 10px;
   /* animation: atasBawah 2s infinite ease-in-out; */
