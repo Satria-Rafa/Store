@@ -4,15 +4,14 @@
 }
 
 div {
-  display: flex;
+  display: block;
 }
 
 .container {
   display: flex;
   justify-content: center;
-  margin-top: 50px;
-  gap: 20px;
-  background-color: blue;
+  margin-top: 10px;
+  gap: 10px;
 }
 
 .container2 {
