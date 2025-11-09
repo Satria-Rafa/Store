@@ -3,14 +3,45 @@
   src: url(BebasNeue-Regular.ttf), format(truetype);
 }
 
+body {
+  background-image: url(hutan.jpg);
+  background-repeat: no-repeat;background-size: cover;
+}
+
 div {
   display: block;
+}
+
+header .box {
+  border: 2px solid black;
+  border-radius: 25px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 15px;
+  width: 83%;
+  margin: auto;
+  font-family: bebas;
+  letter-spacing: 3px;
+  box-shadow: 0 0 8px;
+}
+
+.box h1 {
+  font-size: 50px;
+  color: white;
+  text-shadow: 0 0 6px black;
+}
+
+.box h3 {
+  margin-top: -20px;
+  color: white;
+  text-shadow: 0 0 6px black;
 }
 
 .container {
   display: flex;
   justify-content: center;
-  margin-top: 10px;
+  margin-top: 50px;
   gap: 10px;
 }
 
@@ -21,17 +52,10 @@ div {
   gap: 10px;
 }
 
-.container3 {
-  display: flex;
-  justify-content: center;
-  margin-top: 10px;
-  gap: 10px;
-}
-
 .kartu {
   width: 280px;
   height: 380px;
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.6);
+  box-shadow: 0 0 8px rgba(0, 0, 0, .8);
   overflow: hidden;
   border-radius: 10px;
   /* animation: atasBawah 2s infinite ease-in-out; */
@@ -42,9 +66,11 @@ div {
   height: 200px;
 }
 
-.kartu p {
+.kartu h2 {
   top: 0;
   display: inline;
+  color: white;
+  
 }
 
 .card-body {
@@ -57,7 +83,7 @@ div {
 
 .card-body h3 {
   margin-top: -10px;
-  color: rgb(3, 130, 83);
+  color: rgb(58, 215, 183);
 }
 
 .card-body h2 {
