@@ -13,7 +13,7 @@ div {
 }
 
 header .box {
-  border: 2px solid black;
+  /* border: 2px solid black; */
   border-radius: 25px;
   display: flex;
   flex-direction: column;
@@ -37,6 +37,33 @@ header .box {
   color: white;
   text-shadow: 0 0 6px black;
 }
+
+.iklan {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.iklan img {
+  border-radius: 20px;
+  width: 35%;
+}
+
+.nav-bar {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.nav-bar img {
+  width: 50px;
+  height: 55px;
+}
+
+
+
+
 
 .container {
   display: flex;
