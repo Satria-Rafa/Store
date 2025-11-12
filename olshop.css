@@ -62,14 +62,16 @@ header .box {
   gap: 40px;
 }
 
-.nav-bar .kategori , .kategori1 {
+.nav-bar .kategori , .kategori1, .kategori3 {
   display: flex;
   justify-content: center;
   flex-direction: column;
   text-align: center;
 }
 
-
+.kategori3 span{
+  margin-top: 10px;
+}
 
 .container {
   display: flex;
