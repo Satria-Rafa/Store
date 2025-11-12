@@ -59,9 +59,15 @@ header .box {
   margin-top: 50px;
   gap: 20px;
   border-radius: 20px;
+  gap: 40px;
 }
 
-
+.nav-bar .kategori , .kategori1 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
 
 
 
