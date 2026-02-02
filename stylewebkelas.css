@@ -32,9 +32,9 @@ body{
     100% { transform: translateY(0); }
 }
 
-.header img {
+/* .header img {
     animation: naikTurun 2.5s infinite ease-in-out;
-}
+} */
 
 .header a{
     font-family: bebas;
@@ -69,7 +69,6 @@ body{
 }
 .hero:hover{
     filter: none;
-    transform: scale(1.05);
     box-shadow: 0 0 50px rgb(0, 0, 0);
 }
 
@@ -103,12 +102,6 @@ body{
 
 .content {
     animation: fadeIn 1.5s ease forwards;
-}
-body {
-    cursor: url('sword.cur'), auto;
-}
-a {
-    cursor: url('sword.cur'), auto;
 }
 
 
